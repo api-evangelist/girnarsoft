@@ -1,0 +1,55 @@
+generated: '2026-08-04'
+method: searched
+source: https://www.girnarsoft.com/about.php
+summary: >-
+  GirnarSoft is an engineering services firm, not an API provider, so there is no
+  machine-readable contract from which to derive API-level conformance. What it does
+  publish is a corporate certifications block on its About page naming ISO 9001 and
+  ISO 27001, plus a claim of a CWE/CVE-aligned secure SDLC. Those are organizational
+  quality/security management certifications, not API standards conformance, and are
+  recorded as such.
+standards:
+- id: iso-9001
+  conforms: true
+  scope: organization
+  evidence: >-
+    "ISO 9001 Certified - Quality Management System - ensuring consistent, high-quality
+    delivery across every project and engagement." (about.php, Awards & Certifications)
+  source: https://www.girnarsoft.com/about.php
+- id: iso-27001
+  conforms: true
+  scope: organization
+  evidence: >-
+    "ISO 27001 Certified - Information Security Management - your data, IP, and business
+    logic are protected by enterprise-grade security standards." (about.php, Awards &
+    Certifications)
+  source: https://www.girnarsoft.com/about.php
+- id: cwe-cve-secure-sdlc
+  conforms: true
+  scope: process
+  evidence: >-
+    "Enterprise Rigor - Big-4 audited group, ESG-charter aligned, security-first SDLC
+    (CWE/CVE compliant)." (about.php). A process claim, not a certification.
+  source: https://www.girnarsoft.com/about.php
+- id: soc2
+  conforms: false
+  evidence: Not claimed anywhere on the public site.
+- id: gdpr
+  conforms: false
+  evidence: >-
+    Not claimed. The privacy policy documents retention, transfer and consent but names
+    no regulation.
+- id: oauth2
+  conforms: false
+  evidence: No public API, no securitySchemes, no documented OAuth surface.
+- id: openapi
+  conforms: false
+  evidence: No OpenAPI or Swagger document published on any resolvable host.
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public API surface.
+certification_registry_verified: false
+certification_note: >-
+  The ISO 9001 / ISO 27001 claims are taken verbatim from the provider's own About page.
+  No certificate number, certification body, or scope statement is published, so the
+  claims are recorded as published-but-unverified against an accredited registry.

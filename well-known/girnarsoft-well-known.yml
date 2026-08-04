@@ -1,0 +1,101 @@
+generated: '2026-08-04'
+method: probed
+source: live GET probes of the /.well-known/ and contract-discovery surface
+host: https://www.girnarsoft.com
+summary: >-
+  No well-known discovery documents are published. www.girnarsoft.com is served by
+  an nginx/PHP front end that answers HTTP 200 with the site's HTML shell for every
+  unmatched path, so all probes below returned 200 with Content-Type text/html and a
+  <!DOCTYPE html> body. None of them is a valid document. Every candidate was rejected
+  on body inspection; no raw files were saved and no WellKnown, SecurityTxt, AgentCard
+  or LLMsTxt pointer was wired from this probe.
+catch_all: true
+catch_all_evidence:
+  content_type: text/html; charset=UTF-8
+  body_starts_with: '<!DOCTYPE html>'
+  server: nginx (X-Powered-By PHP/8.0.30)
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  valid: false
+  reason: html-catchall
+- path: /.well-known/openid-configuration
+  status: 200
+  valid: false
+  reason: html-catchall
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  valid: false
+  reason: html-catchall
+- path: /.well-known/oauth-protected-resource
+  status: 200
+  valid: false
+  reason: html-catchall
+- path: /.well-known/api-catalog
+  status: 200
+  valid: false
+  reason: html-catchall
+- path: /.well-known/ai-plugin.json
+  status: 200
+  valid: false
+  reason: html-catchall
+- path: /.well-known/agent-card.json
+  status: 200
+  valid: false
+  reason: html-catchall
+- path: /.well-known/agent.json
+  status: 200
+  valid: false
+  reason: html-catchall
+- path: /.well-known/mcp.json
+  status: 200
+  valid: false
+  reason: html-catchall
+- path: /llms.txt
+  status: 200
+  valid: false
+  reason: html-catchall
+- path: /openapi.json
+  status: 200
+  valid: false
+  reason: html-catchall
+- path: /openapi.yaml
+  status: 200
+  valid: false
+  reason: html-catchall
+- path: /swagger.json
+  status: 200
+  valid: false
+  reason: html-catchall
+- path: /api-docs
+  status: 200
+  valid: false
+  reason: html-catchall
+- path: /graphql
+  status: 200
+  valid: false
+  reason: html-catchall
+other_hosts:
+- host: api.cardekho.com
+  note: >-
+    Sibling CarDekho Group host. Every probed path returned HTTP 403 (Akamai edge deny)
+    - the host exists but is not open to the public and publishes no discovery documents.
+  paths_probed: 10
+  status: 403
+- host: www.cardekho.com
+  note: >-
+    Sibling CarDekho Group consumer property, not GirnarSoft's own surface. All
+    /.well-known/* probes returned 404; /llms.txt returned 200 with a real llms.txt
+    document. Recorded here as an observation only - it belongs to the CarDekho brand,
+    not to GirnarSoft, and is deliberately NOT harvested into this repo.
+  paths_probed: 10
+- host: developers.cardekho.com
+  note: DNS does not resolve.
+- host: developer.girnarsoft.com
+  note: DNS does not resolve.
+- host: api.girnarsoft.com
+  note: DNS does not resolve.
+- host: docs.girnarsoft.com
+  note: DNS does not resolve.
+- host: status.girnarsoft.com
+  note: DNS does not resolve.

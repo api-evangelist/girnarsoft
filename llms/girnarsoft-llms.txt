@@ -1,0 +1,54 @@
+# GirnarSoft
+
+> GirnarSoft is an India-based enterprise software engineering and IT services company headquartered in Jaipur, Rajasthan, with a second delivery centre in Gurugram. Founded in 2007 by IIT Delhi alumni Amit and Anurag Jain, it is the technology arm of the CarDekho Group and built the consumer marketplaces CarDekho, BikeDekho, Gaadi, ZigWheels and PriceDekho. It sells outsourced product engineering — staff augmentation, dedicated teams and software outsourcing — not a product API.
+
+GirnarSoft publishes **no public API, no developer portal, and no machine-readable specification**. There is no OpenAPI, AsyncAPI, GraphQL schema, MCP server, or A2A agent card on any resolvable GirnarSoft host. Agents should treat this company as a services vendor to be contacted, not an API to be integrated with.
+
+## Company
+
+- [Home](https://www.girnarsoft.com/): Company homepage — services, technology stack, industries and case studies.
+- [About](https://www.girnarsoft.com/about.php): Founding (2007), 19-year history, leadership, awards and the ISO 9001 / ISO 27001 certification block.
+- [Services](https://www.girnarsoft.com/services.php): Engagement models (staff augmentation, dedicated teams, software outsourcing) and solution areas.
+- [Products](https://www.girnarsoft.com/products.php): The consumer marketplaces built by the group — CarDekho, BikeDekho, Gaadi, ZigWheels, PriceDekho.
+- [Industries](https://www.girnarsoft.com/industries.php): Banking, insurance, automotive, retail and e-commerce, edtech, SaaS, travel, government/PSU.
+- [Technologies](https://www.girnarsoft.com/technologies.php): Languages, frameworks and cloud platforms used in delivery.
+- [Insights / Blog](https://www.girnarsoft.com/insights.php): Dated technology articles and case studies.
+- [Careers](https://www.girnarsoft.com/careers.php): Open roles and hiring.
+- [Contact](https://www.girnarsoft.com/contact.php): Enquiry form, offices, phone and email.
+
+## Capabilities
+
+- [QA & Test Automation](https://www.girnarsoft.com/qa-testing.php)
+- [Business Intelligence](https://www.girnarsoft.com/business-intelligence.php)
+- [Data Science](https://www.girnarsoft.com/data-science.php)
+- [AI & Machine Learning](https://www.girnarsoft.com/ai-ml.php)
+- [Mobile App Development](https://www.girnarsoft.com/mobile-app-development.php)
+- [Website Development](https://www.girnarsoft.com/website-development.php)
+- [Staff Augmentation](https://www.girnarsoft.com/staff-augmentation.php)
+- [Dedicated Teams](https://www.girnarsoft.com/dedicated-teams.php)
+- [Software Outsourcing](https://www.girnarsoft.com/software-outsourcing.php)
+
+## Contact
+
+- Email: info@girnarsoft.com (general), hr@girnarsoft.com (careers)
+- Phone: +91 9694914760
+- Offices: Jaipur (5th & 6th Floor, Jaipur Textile Market, B-2, Malviya Nagar, Jaipur 302017) and Gurugram (Unitech Cyber Park, Tower B, Sector 39, Gurugram 122003)
+- LinkedIn: https://www.linkedin.com/company/girnarsoftgroup
+
+## Legal
+
+- [Privacy Policy](https://www.girnarsoft.com/privacy-policy.php)
+- [Terms of Conditions](https://www.girnarsoft.com/terms-of-conditions.php)
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/girnarsoft/refs/heads/main/apis.yml): The APIs.json profile for this company.
+- [Conformance](https://raw.githubusercontent.com/api-evangelist/girnarsoft/refs/heads/main/conformance/girnarsoft-conformance.yml): Published ISO 9001 / ISO 27001 claims, recorded as organizational (not API) certifications.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/girnarsoft/refs/heads/main/security/girnarsoft-domain-security.yml): TLS/HSTS/DNSSEC/CAA/SPF/DMARC probe of girnarsoft.com.
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/girnarsoft/refs/heads/main/well-known/girnarsoft-well-known.yml): Full contract-discovery probe result — every path answers with the site's HTML shell; nothing is published.
+- [Packages](https://raw.githubusercontent.com/api-evangelist/girnarsoft/refs/heads/main/packages/girnarsoft-packages.yml): Registry search result — no first-party client libraries.
+
+## Notes for agents
+
+- Do not treat `https://www.girnarsoft.com/<anything>` HTTP 200 responses as evidence a document exists: the host is a catch-all that returns its HTML shell for every unmatched path, including `/.well-known/security.txt`, `/.well-known/agent-card.json`, `/openapi.json` and `/llms.txt`.
+- `api.cardekho.com` is a sibling CarDekho Group host and returns HTTP 403 to the public. `www.cardekho.com` is a separate consumer brand; it publishes its own `llms.txt`, which is not GirnarSoft's.

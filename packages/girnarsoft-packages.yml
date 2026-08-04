@@ -1,0 +1,72 @@
+generated: '2026-08-04'
+method: searched
+source: npm registry search, PyPI, RubyGems, Packagist, NuGet, Maven Central
+summary: >-
+  GirnarSoft publishes no client SDKs, because it publishes no public API. Registry
+  searches surfaced three low-download artifacts carrying the girnarsoft name, all of
+  them internal or personal utility code rather than first-party client libraries, and
+  none of them attributable to the company with confidence. No `SDKs` pointer is wired
+  from this file - there is no API for a client library to wrap.
+registries_searched:
+- registry: npm
+  query: girnarsoft
+  hits: 1
+- registry: pypi
+  query: girnarsoft
+  hits: 0
+- registry: rubygems
+  query: girnarsoft
+  hits: 0
+- registry: packagist
+  query: girnarsoft
+  hits: 2
+- registry: nuget
+  query: girnarsoft
+  hits: 0
+- registry: maven-central
+  query: girnarsoft
+  hits: 0
+- registry: pkg.go.dev
+  query: girnarsoft
+  hits: 0
+packages:
+- language: javascript
+  registry: npm
+  name: girnarsoft-id-ui-symphony
+  url: https://www.npmjs.com/package/girnarsoft-id-ui-symphony
+  install: npm install girnarsoft-id-ui-symphony
+  version: 0.1.6
+  published: '2025-01-23'
+  official: false
+  note: >-
+    Create React App bootstrap published by npm user `nitininsurancedekho` (an
+    InsuranceDekho / CarDekho Group name). No repository, homepage or license metadata.
+    A UI component drop, not a client SDK; first-party status unverified.
+- language: php
+  registry: packagist
+  name: girnarsoft/yii-extension
+  url: https://packagist.org/packages/girnarsoft/yii-extension
+  install: composer require girnarsoft/yii-extension
+  repository: https://github.com/tirthrajsb/yiiextension
+  downloads: 8
+  official: false
+  note: >-
+    Published under a `girnarsoft` Packagist vendor namespace but backed by a personal
+    GitHub repository (tirthrajsb). No description. Attribution unverified.
+- language: php
+  registry: packagist
+  name: girnarsoft/sms-services
+  url: https://packagist.org/packages/girnarsoft/sms-services
+  install: composer require girnarsoft/sms-services
+  repository: https://github.com/tirthrajsb/sms-extension
+  downloads: 37
+  official: false
+  note: >-
+    Same `girnarsoft` vendor namespace, personal GitHub repository (tirthrajsb).
+    Attribution unverified.
+x-evidence:
+  fetched: '2026-08-04'
+  npm_search: https://registry.npmjs.org/-/v1/search?text=girnarsoft
+  packagist_search: https://packagist.org/search.json?q=girnarsoft
+  pypi: https://pypi.org/pypi/girnarsoft/json (404)
+  rubygems: https://rubygems.org/api/v1/gems/girnarsoft.json (404)
