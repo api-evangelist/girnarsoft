@@ -11,6 +11,17 @@ description: 'GirnarSoft is an India-based enterprise software engineering and I
   It works in banking, insurance, automotive, retail and e-commerce, edtech, SaaS, travel
   and government/PSU, and publishes no public developer portal, API documentation or
   machine-readable specification of its own.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://design.girnarsoft.com/rakesh/girnarsoft-new/images/logogs.jpg
 url: https://raw.githubusercontent.com/api-evangelist/girnarsoft/refs/heads/main/apis.yml
 x-type: company
