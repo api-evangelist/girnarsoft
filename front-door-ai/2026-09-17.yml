@@ -1,0 +1,36 @@
+# Front Door AI Index — girnarsoft — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: girnarsoft
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.girnarsoft.com
+  final_host: www.girnarsoft.com
+  ownership: own
+  owner: girnarsoft
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 70
+  host_score: 70
+  density: 38.74
+  words: 1807
+  tiers:
+    agentic: 10
+    core: 60
+    model: 0
+  ambiguous: 13
+  top_terms:
+    AI: 55
+    agent: 5
+    AI agent: 4
+    automation: 3
+    intelligence: 3
+    RAG: 2
+    agentic: 2
+    copilot: 2
+    machine learning: 2
+    LLMs: 1
+    ML: 1
+    cognitive: 1
