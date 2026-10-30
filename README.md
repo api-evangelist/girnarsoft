@@ -64,5 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-GirnarSoft is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/girnarsoft_stock/
+GirnarSoft is an India-based enterprise software engineering and IT services company headquartered in Jaipur, Rajasthan, with a second delivery centre in Gurugram. Founded in 2007 by IIT Delhi alumni Amit and Anurag Jain, it is the technology arm of the CarDekho Group and built the consumer marketplaces CarDekho, BikeDekho, Gaadi, ZigWheels and PriceDekho. The firm sells outsourced product engineering rather than a product API: staff augmentation, dedicated teams and software outsourcing across web and mobile development, QA and test automation, business intelligence, data science, AI/ML, cloud and DevOps, plus AI-augmented engineering pods and agentic-AI automation. It works in banking, insurance, automotive, retail and e-commerce, edtech, SaaS, travel and government/PSU, and publishes no public developer portal, API documentation or machine-readable specification of its own.
+
+**Areas:** Company · Software Development · IT Services · Outsourcing · Staff Augmentation · Quality Assurance · Artificial Intelligence · Machine Learning · Cloud · DevOps · Data Science · Mobile Development
+
+## GirnarSoft on APIs.io
+
+Everything profiled for GirnarSoft is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/girnarsoft/](https://apis.io/providers/girnarsoft/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Girnarsoft Domain Security](https://apis.io/security/girnarsoft/girnarsoft-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.girnarsoft.com/)
+- [Support](https://www.girnarsoft.com/contact.php)
+- [Blog](https://www.girnarsoft.com/insights.php)
+- [Compliance](https://www.girnarsoft.com/about.php)
+- [Terms of service](https://www.girnarsoft.com/terms-of-conditions.php)
+- [Privacy policy](https://www.girnarsoft.com/privacy-policy.php)
+
+## API Evangelist rating
+
+**Kin Score 15.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 28.9 |
+
+**Agent readiness 2.9** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 21.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/girnarsoft/](https://apis.io/providers/girnarsoft/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for GirnarSoft: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/girnarsoft/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
